@@ -11,9 +11,9 @@ public class EvenOrOddNumber {
     boolean A = number % 2 == 0;
     
     if (A) {
-      System.out.println("The number is even");
+      System.out.println("Number is even");
     } else {
-      System.out.println("The number is odd");
+      System.out.println("Number is odd");
     }
   }
 }
