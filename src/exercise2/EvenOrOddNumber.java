@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class EvenOrOddNumber {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Enter a number:");
+    System.out.print("Enter a number: ");
 
     int number = input.nextInt();
-    int A = number % 2;
+    boolean A = number % 2 == 0;
     
-    if (A == 0) {
-      System.out.println("The number is even");
+    if (A) {
+      System.out.println("Number is even");
     } else {
-      System.out.println("The number is odd");
+      System.out.println("Number is odd");
     }
   }
 }
