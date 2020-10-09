@@ -8,9 +8,9 @@ public class EvenOrOddNumber {
     System.out.print("Enter a number: ");
 
     int number = input.nextInt();
-    int A = number % 2;
+    boolean A = number % 2 == 0;
     
-    if (A == 0) {
+    if (A) {
       System.out.println("The number is even");
     } else {
       System.out.println("The number is odd");
